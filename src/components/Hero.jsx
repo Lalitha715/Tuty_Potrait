@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { ArrowRight, Camera } from "lucide-react";
-import logo from "../assets/tp_logo.png";
+import logo from "../assets/tp_logo.webp";
 
 function Hero() {
     return (
@@ -20,7 +20,7 @@ function Hero() {
                         <span className="text-[#d4a64a]">Luxury Style</span>
                     </h1>
 
-                    <p className="text-gray-400 mt-6 text-lg max-w-lg">
+                    <p className="text-gray-300 mt-6 text-lg max-w-lg">
                         Premium wedding photography, custom photo gifts and laser cutting works crafted with love and perfection.
                     </p>
 
@@ -37,18 +37,20 @@ function Hero() {
                 <motion.div
                     initial={{ opacity: 0, scale: 0.85 }}
                     animate={{ opacity: 1, scale: 1 }}
-                    transition={{ duration: 1 }}
+                    transition={{ duration: 0.4 }}
                     className="relative mt-10 md:mt-0">
                     <div className="absolute inset-0 bg-[#d4a64a]/20 blur-3xl rounded-full"></div>
                     <div className="logo-container rounded-[30px] overflow-hidden flex justify-center items-center">
                     <img
                         src={logo}
-                        alt="Wedding Photography"
+                        alt="Tuty Portrait"
+                        fetchpriority="high"
+                        loagding="eager"
                         className="logo-animation w-[85%] h-[300px] md:h-[500px] object-contain"
                     />
                     </div>
-                    <div className="absolute bottom-2 left-6 right-6 glass rounded-3xl p-2 text-center">
-                        <h3 className="text-2xl font-bold">Tuty Potrait</h3>
+                    <div className="mt-2 mx-6 glass rounded-3xl p-3 text-center">
+                        <h3 className="text-2xl font-bold">Tuty Portrait</h3>
                         <p className="text-gray-300">Creating memories that last forever</p>
                     </div>
                 </motion.div>

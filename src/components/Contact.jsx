@@ -21,7 +21,7 @@ function Contact() {
               Your Memories?
             </h2>
 
-            <p className="text-gray-400 mt-6 text-lg">
+            <p className="text-gray-300 mt-6 text-lg">
               Contact Tuty Portrait for photography, photo gifts,
               custom frames and laser works.
             </p>
@@ -65,7 +65,7 @@ function Contact() {
               Chat On WhatsApp
             </a>
 
-            <p className="text-gray-400 mt-6">
+            <p className="text-gray-300 mt-6">
               Click WhatsApp button and send your photo gift / photography enquiry.
             </p>
           </div>

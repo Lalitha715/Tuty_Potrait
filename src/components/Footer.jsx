@@ -7,12 +7,12 @@ function Footer() {
           <h2 className="text-2xl font-black tracking-[5px]">
             TUTY PORTRAIT
           </h2>
-          <p className="text-gray-500 mt-2">
+          <p className="text-gray-300 mt-2">
             Premium photography & personalized gifts.
           </p>
         </div>
 
-        <p className="text-gray-500">
+        <p className="text-gray-300">
           © 2026 Tuty Portrait. All rights reserved.
         </p>
 

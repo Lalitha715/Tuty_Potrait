@@ -1,5 +1,5 @@
 import { X, Menu } from "lucide-react";
-import logo from "../assets/tp_logo.png";
+import logo from "../assets/tp_logo.webp";
 import { useState } from "react";
 
 function Navbar() {
@@ -12,8 +12,8 @@ function Navbar() {
                 <div className="flex items-center gap-3">
                     <img src={logo} alt="Tuty Portrait Logo" className="w-16 h-16 object-contain" />
                     <div>
-                        <h1 className="text-2xl font-bold tracking-[6px]">TUTY</h1>
-                        <p className="text-xs tracking-[5px] text-gray-400">PORTRAIT</p>
+                        <h1 className="text-2xl font-bold tracking-[6px]">TUTY PORTRAIT</h1>
+                        <p className="text-xL tracking-[1px] text-gray-600 ">The Color Printing House</p>
                     </div>
                 </div>
 
