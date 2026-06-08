@@ -1,12 +1,12 @@
-import Photo_Frame from "../assets/PhotoFrame.png";
-import LED from "../assets/LEDFrame.png";
-import Mug from "../assets/Mug.png";
-import Cushion from "../assets/PhotoCushion.png";
-import Keychain from "../assets/PhotoKeyChain.png";
-import Clock from "../assets/PhotoClock.png";
-import Crystal from "../assets/Crystral.png";
-import Album from "../assets/Album.png";
-import {motion} from "framer-motion";
+import Photo_Frame from "../assets/PhotoFrame.webp";
+import LED from "../assets/LEDFrame.webp";
+import Mug from "../assets/Mug.webp";
+import Cushion from "../assets/PhotoCushion.webp";
+import Keychain from "../assets/PhotoKeyChain.webp";
+import Clock from "../assets/PhotoClock.webp";
+import Crystal from "../assets/Crystral.webp";
+import Album from "../assets/Album.webp";
+import { motion } from "framer-motion";
 
 function Gifts() {
   const gifts = [
@@ -20,11 +20,12 @@ function Gifts() {
     },
     {
       title: "Photo Mugs",
-      image: Mug,   
+      image: Mug,
     },
     {
       title: "Photo Cushions",
-      image: Cushion,   },
+      image: Cushion,
+    },
     {
       title: "Photo Keychains",
       image: Keychain,
@@ -77,8 +78,12 @@ function Gifts() {
           <div className="flex gap-6 w-max">
 
             {gifts.map((gift, index) => (
-              <div
+              <motion.div
                 key={index}
+                initial={{ opacity: 0, y: 40 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.4, delay: index * 0.08 }}
+                viewport={{ once: true }}
                 className="w-[180px] flex-shrink-0 snap-start"
               >
                 <div
@@ -88,31 +93,32 @@ function Gifts() {
                     bg-[#111111]
                     rounded-2xl
                     overflow-hidden
-                    border border-[#d4a64a]/20
-                    hover:border-[#d4a64a]
+                    border border-[#d4a64a]
+                    hover:scale-105
                     hover:shadow-[0_0_25px_rgba(212,166,74,0.35)]
                     duration-300
                     group
                   "
                 >
                   <img
+                    loading="lazy"
                     src={gift.image}
                     alt={gift.title}
-                    className="w-full h-full object-cover group-hover:scale-110 duration-500"
+                    className="w-full h-full object-contain p-2 group-hover:scale-110 duration-500"
                   />
                 </div>
 
                 <h3 className="text-center text-sm font-bold uppercase mt-4 text-white">
                   {gift.title}
                 </h3>
-              </div>
+              </motion.div>
             ))}
 
           </div>
         </div>
 
       </div>
-    </section>
+    </section >
   );
 }
 
