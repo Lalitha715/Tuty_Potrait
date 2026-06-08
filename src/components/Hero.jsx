@@ -4,7 +4,7 @@ import logo from "../assets/tp_logo.png";
 
 function Hero() {
     return (
-        <section id="home" className="min-h-screen bg-black flex items-center pt-28 overflow-hidden">
+        <section id="home" className="min-h-screen bg-black flex items-center pt-24 md:pt-28 overflow-hidden">
             <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
                 <motion.div
                     initial={{ opacity: 0, y: 50 }}
@@ -14,7 +14,7 @@ function Hero() {
                     <p className="text-[#d4a64a] font-semibold tracking-[4px] mb-4">
                         MEMORIES FOREVER
                     </p>
-                    <h1 className="text-5xl md:text-7xl font-black leading-tight">
+                    <h1 className="text-4xl md:text-7xl font-black leading-tight">
                         Capture Your<br />
                         Moments In <br />
                         <span className="text-[#d4a64a]">Luxury Style</span>
@@ -38,16 +38,16 @@ function Hero() {
                     initial={{ opacity: 0, scale: 0.85 }}
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 1 }}
-                    className="relative">
-                    <div className="absoluteinset-0 bg-[#d4a64a]/20 blur-3xl rounded-full"></div>
-                    <div className="logo-container rounded-[40px]">
+                    className="relative mt-10 md:mt-0">
+                    <div className="absolute inset-0 bg-[#d4a64a]/20 blur-3xl rounded-full"></div>
+                    <div className="logo-container rounded-[30px] overflow-hidden flex justify-center items-center">
                     <img
                         src={logo}
                         alt="Wedding Photography"
-                        className="logo-animation rounded-[0px] shadow-2xl w-full h-[500px] object-cover"
+                        className="logo-animation w-[85%] h-[300px] md:h-[500px] object-contain"
                     />
                     </div>
-                    <div className="absolute bottom-2 left-6 right-6 glass rounded-3xl p-3 text-center">
+                    <div className="absolute bottom-2 left-6 right-6 glass rounded-3xl p-2 text-center">
                         <h3 className="text-2xl font-bold">Tuty Potrait</h3>
                         <p className="text-gray-300">Creating memories that last forever</p>
                     </div>

@@ -38,7 +38,7 @@ function Features() {
             Why Choose Us
           </p>
 
-          <h2 className="text-5xl font-black mt-3">
+          <h2 className="text-4xl font-black mt-3">
             Premium Experience
           </h2>
         </div>
