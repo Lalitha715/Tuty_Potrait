@@ -18,7 +18,7 @@ function Contact() {
             <h2 className="text-5xl font-black mt-4 leading-tight">
               Ready To Create
               <br />
-              Your Memory?
+              Your Memories?
             </h2>
 
             <p className="text-gray-400 mt-6 text-lg">
@@ -27,10 +27,10 @@ function Contact() {
             </p>
 
             <div className="space-y-5 mt-10">
-              <p className="flex items-center gap-4">
+              <a href="tel:+917708260129" className="flex items-center gap-4">
                 <Phone className="text-[#d4a64a]" />
                 +91 77082 60129
-              </p>
+              </a>
 
               <a href="https://www.instagram.com/tuty_portrait" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4">
                 <FaInstagram className="text-[#d4a64a] text-2xl" />
@@ -44,7 +44,7 @@ function Contact() {
 
               <p className="flex items-center gap-4">
                 <MapPin className="text-[#d4a64a]" />
-                Tuticorin, Tamil Nadu
+                Thoothukudi, Tamil Nadu
               </p>
 
               

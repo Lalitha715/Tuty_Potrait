@@ -13,7 +13,7 @@ function Navbar() {
                     <img src={logo} alt="Tuty Portrait Logo" className="w-16 h-16 object-contain" />
                     <div>
                         <h1 className="text-2xl font-bold tracking-[6px]">TUTY</h1>
-                        <p className="text-xs tracking-[5px] text-gray-400">POTRAIT</p>
+                        <p className="text-xs tracking-[5px] text-gray-400">PORTRAIT</p>
                     </div>
                 </div>
 

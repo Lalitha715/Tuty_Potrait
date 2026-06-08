@@ -73,13 +73,13 @@ function Gifts() {
         </motion.div>
 
         {/* Scroll Cards */}
-        <div className="overflow-x-auto overflow-y-hidden pb-4">
+        <div className="overflow-x-auto overflow-y-hidden pb-4 snap-x snap-mandatory scroll-smooth">
           <div className="flex gap-6 w-max">
 
             {gifts.map((gift, index) => (
               <div
                 key={index}
-                className="w-[180px] flex-shrink-0"
+                className="w-[180px] flex-shrink-0 snap-start"
               >
                 <div
                   className="
