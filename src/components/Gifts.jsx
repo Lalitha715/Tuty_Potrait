@@ -6,6 +6,7 @@ import Keychain from "../assets/PhotoKeyChain.png";
 import Clock from "../assets/PhotoClock.png";
 import Crystal from "../assets/Crystral.png";
 import Album from "../assets/Album.png";
+import {motion} from "framer-motion";
 
 function Gifts() {
   const gifts = [
@@ -49,7 +50,13 @@ function Gifts() {
     >
       <div className="max-w-7xl mx-auto px-6">
 
-        <div className="text-center mb-12">
+        <motion.div
+          initial={{ opacity: 0, y: 40 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.7 }}
+          viewport={{ once: true }}
+          className="text-center mb-12"
+        >
           <p className="text-[#d4a64a] uppercase tracking-[4px] font-semibold">
             Personalized Collection
           </p>
@@ -63,7 +70,7 @@ function Gifts() {
             <span>♥</span>
             <span className="w-20 h-[2px] bg-[#d4a64a]"></span>
           </div>
-        </div>
+        </motion.div>
 
         {/* Scroll Cards */}
         <div className="overflow-x-auto overflow-y-hidden pb-4">

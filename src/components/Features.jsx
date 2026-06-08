@@ -4,6 +4,7 @@ import {
   HeartHandshake,
   Palette,
 } from "lucide-react";
+import {motion} from "framer-motion";
 
 function Features() {
   const features = [
@@ -33,7 +34,13 @@ function Features() {
     <section className="py-20 bg-[#050505]">
       <div className="max-w-7xl mx-auto px-6">
 
-        <div className="text-center mb-16">
+        <motion.div
+          initial={{ opacity: 0, y: 40 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.7 }}
+          viewport={{ once: true }}
+          className="text-center mb-12"
+        >
           <p className="text-[#d4a64a] uppercase tracking-[4px]">
             Why Choose Us
           </p>
@@ -41,7 +48,7 @@ function Features() {
           <h2 className="text-4xl font-black mt-3">
             Premium Experience
           </h2>
-        </div>
+        </motion.div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
 
