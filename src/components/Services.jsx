@@ -26,7 +26,7 @@ function Services() {
     return(
         <section
       id="services"
-      className="py-32 bg-[#050505]"
+      className="py-2 bg-[#050505]"
     >
       <div className="max-w-7xl mx-auto px-6">
 

@@ -1,11 +1,11 @@
 import {Camera, Menu} from "lucide-react";
-
+import logo from "../assets/tp_logo.png";
 function Navbar() {
     return(
         <nav className="fixed top-0 left-0 w-full z-50 bg-black/70 backdrop-blur-xl border-b border-white/10">
             <div className="max-w-7xl mx-auto pz-6 py-4 flex items-center justify-between">
                 <div className="flex items-center gap-3">
-                    <Camera className="text-[#d4a64a]" size={32}/>
+                    <img src={logo} alt="Tuty Portrait Logo" className="w-16 h-16 object-contain"/>
                     <div>
                         <h1 className="text-2xl font-bold tracking-[6px]">TUTY</h1>
                         <p className="text-xs tracking-[5px] text-gray-400">POTRAIT</p>

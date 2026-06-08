@@ -30,7 +30,7 @@ function Features() {
   ];
 
   return (
-    <section className="py-24 bg-[#0a0a0a]">
+    <section className="py-20 bg-[#050505]">
       <div className="max-w-7xl mx-auto px-6">
 
         <div className="text-center mb-16">

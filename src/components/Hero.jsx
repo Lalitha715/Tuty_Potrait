@@ -1,9 +1,10 @@
 import { motion } from "framer-motion";
 import { ArrowRight, Camera } from "lucide-react";
+import logo from "../assets/tp_logo.png";
 
 function Hero() {
     return (
-        <section id="home" className="min-h-screen bg-black flex items-center pt-24 overflow-hidden">
+        <section id="home" className="min-h-screen bg-black flex items-center pt-28 overflow-hidden">
             <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
                 <motion.div
                     initial={{ opacity: 0, y: 50 }}
@@ -39,12 +40,14 @@ function Hero() {
                     transition={{ duration: 1 }}
                     className="relative">
                     <div className="absoluteinset-0 bg-[#d4a64a]/20 blur-3xl rounded-full"></div>
+                    <div className="logo-container rounded-[40px]">
                     <img
-                        src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=900&q=80"
+                        src={logo}
                         alt="Wedding Photography"
-                        className="relative rounded-[40px] shadow-2xl w-full h-[560px] object-cover"
+                        className="logo-animation rounded-[0px] shadow-2xl w-full h-[500px] object-cover"
                     />
-                    <div className="absolute bottom-6 left-6 right-6 glass rounded-3xl p-5">
+                    </div>
+                    <div className="absolute bottom-2 left-6 right-6 glass rounded-3xl p-3 text-center">
                         <h3 className="text-2xl font-bold">Tuty Potrait</h3>
                         <p className="text-gray-300">Creating memories that last forever</p>
                     </div>

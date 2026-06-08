@@ -1,4 +1,5 @@
-import { Phone, MapPin, MessageCircle } from "lucide-react";
+import { Phone, MapPin, MessageCircle, Camera, Mail} from "lucide-react";
+import {FaInstagram} from "react-icons/fa";
 
 function Contact() {
   return (
@@ -31,10 +32,22 @@ function Contact() {
                 +91 77082 60129
               </p>
 
+              <a href="https://www.instagram.com/tuty_portrait" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4">
+                <FaInstagram className="text-[#d4a64a] text-2xl" />
+                @tuty_portrait
+              </a>
+
+              <a href="mailto:tutypotrait@gmail.com" className="flex items-center gap-4">
+                <Mail className="text-[#d4a64a]" />
+                tutypotrait@gmail.com
+              </a>
+
               <p className="flex items-center gap-4">
                 <MapPin className="text-[#d4a64a]" />
                 Tuticorin, Tamil Nadu
               </p>
+
+              
             </div>
           </div>
 
