@@ -35,7 +35,7 @@ function Services() {
             Our Services
           </p>
 
-          <h2 className="text-5xl md:text-6xl font-black mt-4">
+          <h2 className="text-4xl md:text-4xl font-black mt-4">
             Crafted For Memories
           </h2>
         </div>

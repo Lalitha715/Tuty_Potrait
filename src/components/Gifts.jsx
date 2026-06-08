@@ -1,44 +1,44 @@
+import Photo_Frame from "../assets/PhotoFrame.png";
+import LED from "../assets/LEDFrame.png";
+import Mug from "../assets/Mug.png";
+import Cushion from "../assets/PhotoCushion.png";
+import Keychain from "../assets/PhotoKeyChain.png";
+import Clock from "../assets/PhotoClock.png";
+import Crystal from "../assets/Crystral.png";
+import Album from "../assets/Album.png";
+
 function Gifts() {
   const gifts = [
     {
       title: "Photo Frames",
-      image:
-        "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=500&q=80",
+      image: Photo_Frame,
     },
     {
       title: "LED Frames",
-      image:
-        "https://images.unsplash.com/photo-1522673607200-164d1b6ce486?auto=format&fit=crop&w=500&q=80",
+      image: LED,
     },
     {
       title: "Photo Mugs",
-      image:
-        "https://images.unsplash.com/photo-1514228742587-6b1558fcf93a?auto=format&fit=crop&w=500&q=80",
+      image: Mug,   
     },
     {
       title: "Photo Cushions",
-      image:
-        "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=500&q=80",
-    },
+      image: Cushion,   },
     {
       title: "Photo Keychains",
-      image:
-        "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=500&q=80",
+      image: Keychain,
     },
     {
       title: "Photo Clocks",
-      image:
-        "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=500&q=80",
+      image: Clock,
     },
     {
       title: "Crystal Gifts",
-      image:
-        "https://images.unsplash.com/photo-1523438885200-e635ba2c371e?auto=format&fit=crop&w=500&q=80",
+      image: Crystal,
     },
     {
       title: "Photo Albums",
-      image:
-        "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=500&q=80",
+      image: Album,
     },
   ];
 

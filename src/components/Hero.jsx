@@ -4,7 +4,7 @@ import logo from "../assets/tp_logo.png";
 
 function Hero() {
     return (
-        <section id="home" className="min-h-screen bg-black flex items-center pt-24 md:pt-28 overflow-hidden">
+        <section id="home" className="min-h-screen bg-black flex items-center pt-40 md:pt-32 overflow-hidden">
             <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
                 <motion.div
                     initial={{ opacity: 0, y: 50 }}
