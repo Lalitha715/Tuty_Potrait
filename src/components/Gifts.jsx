@@ -101,7 +101,6 @@ function Gifts() {
                   "
                 >
                   <img
-                    loading="lazy"
                     src={gift.image}
                     alt={gift.title}
                     className="w-full h-full object-contain p-2 group-hover:scale-110 duration-500"
