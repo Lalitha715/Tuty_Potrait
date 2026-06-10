@@ -76,15 +76,7 @@ function Navbar() {
                                 </a>
                             </li>
 
-                            <li>
-                                <a
-                                    href="#about"
-                                    onClick={() => setIsOpen(false)}
-                                    className="hover:text-[#d4a64a]"
-                                >
-                                    About
-                                </a>
-                            </li>
+                            
 
                             <li>
                                 <a
