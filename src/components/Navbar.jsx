@@ -21,7 +21,6 @@ function Navbar() {
                     <li><a href="#home" className="hover:text-[#d4a64a]">Home</a></li>
                     <li><a href="#gifts" className="hover:text-[#d4a64a]">Gifts</a></li>
                     <li><a href="#services" className="hover:text-[#d4a64a]">Services</a></li>
-                    <li><a href="#about" className="hover:text-[#d4a64a]">About</a></li>
                     <li><a href="#contact" className="hover:text-[#d4a64a]">Contact</a></li>
                 </ul>
 
